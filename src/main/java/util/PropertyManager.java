@@ -16,7 +16,6 @@ public class PropertyManager {
     public JsonPath config;
 
     public PropertyManager() {
-        files.put("binbin", new File(ClassLoader.getSystemResource("properties/binbin.properties").getPath()));
         files.put("fotograf", new File(ClassLoader.getSystemResource("properties/fotograf.properties").getPath()));
 
         for (File f : files.values()) {
